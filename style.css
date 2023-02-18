@@ -1,0 +1,10 @@
+p{
+  color: black;
+  background-color: gray;
+  text-align:center;
+  padding: 5px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
