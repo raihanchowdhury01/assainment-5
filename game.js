@@ -28,4 +28,3 @@ function setTexResult(elementI , newV){
   const textElement = document.getElementById(elementI);
   textElement.innerText = newV;
 }
-console.log(23);
