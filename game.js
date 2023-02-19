@@ -11,9 +11,9 @@ document.getElementById('triangleBtn').addEventListener('click', function(){
 
 //rectangle calculate
 document.getElementById('rectangleBtn').addEventListener('click', function(){
-  const inputField1of2 = calculateFunction('rectangleInputField1');
+  const inputField1of1 = calculateFunction('rectangleInputField1');
   const inputField2of2 = calculateFunction('rectangleInputField2');
-  const update = inputField1of2 * inputField2of2;
+  const update = inputField1of1 * inputField2of2;
   
   const last = showSection('ractangleCalculateBtn');
   
@@ -22,9 +22,9 @@ document.getElementById('rectangleBtn').addEventListener('click', function(){
 
 //parallelogram calculate
 document.getElementById('parallelogramBtn').addEventListener('click', function(){
-  const inputField1of2 = calculateFunction('parallelogramInputField1');
+  const inputField1of1 = calculateFunction('parallelogramInputField1');
   const inputField2of2 = calculateFunction('parallelogramInputField2');
-  const update = inputField1of2 * inputField2of2;
+  const update = inputField1of1 * inputField2of2;
   
   const last = showSection('parallelogramCalculateBtn');
   
@@ -33,9 +33,9 @@ document.getElementById('parallelogramBtn').addEventListener('click', function()
 
 //rhombus calculate
 document.getElementById('rhombusBtn').addEventListener('click', function() {
-  const inputField1of2 = calculateFunction('rhombusInputField1');
+  const inputField1of1 = calculateFunction('rhombusInputField1');
   const inputField2of2 = calculateFunction('rhombusInputField2');
-  const update = inputField1of2 * inputField2of2;
+  const update = 0.5 * inputField1of1 * inputField2of2;
 
   const last = showSection('rhombusCulateBtn');
 
@@ -45,9 +45,9 @@ document.getElementById('rhombusBtn').addEventListener('click', function() {
 
 //Pentagon calculate
 document.getElementById('pentagonBtn').addEventListener('click', function() {
-  const inputField1of2 = calculateFunction('pentagonInputField1');
+  const inputField1of1 = calculateFunction('pentagonInputField1');
   const inputField2of2 = calculateFunction('pentagonInputField2');
-  const update = inputField1of2 * inputField2of2;
+  const update =0.5 * inputField1of1 * inputField2of2;
 
   const last = showSection('pentagonCalculateBtn');
 
@@ -56,9 +56,9 @@ document.getElementById('pentagonBtn').addEventListener('click', function() {
 
 //Ellipse calculate
 document.getElementById('ellipseBtn').addEventListener('click', function() {
-  const inputField1of2 = calculateFunction('ellipseInputField');
+  const inputField1of1 = calculateFunction('ellipseInputField');
   const inputField2of2 = calculateFunction('ellipaseInputField2');
-  const update = inputField1of2 * inputField2of2;
+  const update = 3.1416 * inputField1of1 * inputField2of2;
 
   const last = showSection('ellipaseCalculateBtn');
 
