@@ -7,9 +7,7 @@ document.getElementById('calculateBtn').addEventListener('click', function(){
   const last = showSection('calculateAmount');
   
   setTexResult('calculateAmount', problem);
-  
-  
-  console.log(problem);
+
   
 })
 function calculateFunction(inputId){
