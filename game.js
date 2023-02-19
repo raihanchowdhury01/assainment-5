@@ -1,3 +1,4 @@
+
 document.getElementById('calculateBtn').addEventListener('click', function(){
   const problem1 = calculateFunction('inputField1');
   const problem2 = calculateFunction('inputField2');
@@ -28,3 +29,4 @@ function setTexResult(elementI , newV){
   const textElement = document.getElementById(elementI);
   textElement.innerText = newV;
 }
+
