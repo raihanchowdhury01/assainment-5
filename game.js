@@ -65,7 +65,9 @@ document.getElementById('ellipseBtn').addEventListener('click', function() {
   setTexResult('ellipaseCalculateBtn', update);
 });
 
-
+document.getElementById('locationChange').addEventListener('click', function(){
+  window.location.href = 'index1.html';
+})
 
 
 
