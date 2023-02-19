@@ -1,14 +1,25 @@
 
-document.getElementById('calculateBtn').addEventListener('click', function(){
+document.getElementById('triangleBtn').addEventListener('click', function(){
   const problem1 = calculateFunction('inputField1');
   const problem2 = calculateFunction('inputField2');
   const problem = 0.5 * problem1 * problem2;
   
   const last = showSection('calculateAmount');
   
+ setTexResult('calculateAmount', problem);
+ 
+
+})
+document.getElementById('rectangleBtn').addEventListener('click', function() {
+  const problem1 = calculateFunction('inputField1');
+  const problem2 = calculateFunction('inputField2');
+  const problem = problem1 * problem2;
+
+  const last = showSection('calculateAmount');
+
   setTexResult('calculateAmount', problem);
 
-  
+
 })
 function calculateFunction(inputId){
   const inputField = document.getElementById(inputId);
